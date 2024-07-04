@@ -113,6 +113,7 @@ Here are the steps to run the portfolio locally.
    NEXT_PUBLIC_FIREBASE_DATABASE_URL=XXXXXXXXXX
    MAIL_FROM=YOUR_MAIL_ID
    MAIL_TO=YOUR_MAIL_ID
+   PUBLIC_URL=YOUR_PUBLIC_URL
    ```
 4. Hurray! You successfully deployed the portfolio🥳
 
