@@ -116,6 +116,10 @@ Here are the steps to run the portfolio locally.
    ```
 4. Hurray! You successfully deployed the portfolio🥳
 
+## Contributing
+
+Check out the [Contributing Guide](.github/CONTRIBUTING.md).
+
 ## License 📄
 
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/jigar-sable/next-portfolio/blob/main/LICENSE.md)
