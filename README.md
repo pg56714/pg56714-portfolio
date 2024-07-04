@@ -88,7 +88,7 @@ Here are the steps to run the portfolio locally.
 
 > **Note**: `SENDGRID_API_KEY` - Create an API key from "Settings" -> "API Keys" with "Restricted Access" to only "Mail Send"
 
-1. Update the sample [data.json](https://github.com/jigar-sable/next-portfolio/blob/main/data.json) provided, with your data or directly import the same and edit using firebase later. (For storing images you can use [Cloudinary](https://cloudinary.com) or [Firebase Storage](https://firebase.google.com/docs/storage))
+1. Update the sample [data.json](https://github.com/jigar-sable/next-portfolio/blob/main/public/data.json) provided, with your data or directly import the same and edit using firebase later. (For storing images you can use [Cloudinary](https://cloudinary.com) or [Firebase Storage](https://firebase.google.com/docs/storage))
 
 2. Import json data
 
