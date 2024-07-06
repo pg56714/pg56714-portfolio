@@ -5,6 +5,7 @@ import Typewriter from "typewriter-effect";
 import { IoIosArrowForward } from "react-icons/io";
 import wavingHand from "@/public/waving-hand.gif";
 import { main } from "@/types/main";
+import Link from "next/link";
 
 interface HeroProps {
   mainData: main;
@@ -12,7 +13,8 @@ interface HeroProps {
 
 const Hero = ({ mainData }: HeroProps) => {
   const { theme } = useTheme();
-  const { name, titles, heroImage, shortDesc, techStackImages } = mainData;
+  const { name, titles, heroImage, shortDesc, techStackImages, blogUrl } =
+    mainData;
 
   return (
     <section
@@ -75,17 +77,28 @@ const Hero = ({ mainData }: HeroProps) => {
                         <span className="relative">SPPU Prep</span>
                     </a> */}
 
-          <ScrollLink
-            className="w-fit text-sm md:text-base py-2 px-4 cursor-pointer flex items-center gap-1 rounded-md bg-violet-600 hover:bg-violet-700 dark:bg-violet-700 hover:dark:bg-violet-800 transition-colors group text-white"
-            to={"about"}
-            offset={-60}
-            smooth={true}
-            duration={500}
-            isDynamic={true}
-          >
-            About Me
-            <IoIosArrowForward className="group-hover:translate-x-1 transition-transform" />
-          </ScrollLink>
+          <div className="flex items-center gap-4 md:mt-4">
+            {blogUrl.trim() && (
+              <Link
+                href={blogUrl}
+                target="_blank"
+                className="w-fit text-sm md:text-base py-2 px-4 cursor-pointer flex items-center gap-1 rounded-md bg-violet-600 hover:bg-violet-700 dark:bg-violet-700 hover:dark:bg-violet-800 transition-colors group text-white"
+              >
+                myBlog
+              </Link>
+            )}
+            <ScrollLink
+              className="w-fit text-sm md:text-base py-2 px-4 cursor-pointer flex items-center gap-1 rounded-md bg-violet-600 hover:bg-violet-700 dark:bg-violet-700 hover:dark:bg-violet-800 transition-colors group text-white"
+              to={"about"}
+              offset={-60}
+              smooth={true}
+              duration={500}
+              isDynamic={true}
+            >
+              About Me
+              <IoIosArrowForward className="group-hover:translate-x-1 transition-transform" />
+            </ScrollLink>
+          </div>
         </div>
 
         <div className="relative mx-auto lg:mx-0 mt-12 md:mt-16 lg:mt-0">
