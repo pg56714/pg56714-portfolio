@@ -1,68 +1,206 @@
 {
   "main": {
-    "name": "Jhon Doe",
-    "shortDesc": "I focus on developing user-friendly web applications that meet the client's requirements, with attention to detail, scalability, and performance.",
-    "titles": [
-      "Frontend Development",
-      "Backend Development",
-      "App Development"
-    ],
-    "heroImage": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg",
+    "name": "Sam Hong",
+    "shortDesc": "I specialize in developing user-friendly software applications that meet client requirements, with a keen attention to detail, scalability, and performance.",
+    "titles": ["Software Engineer", "Develop Everything"],
+    "heroImage": "https://pg56714-log.vercel.app/avatar.svg",
     "techStackImages": [
-      "https://img.icons8.com/color/144/000000/material-ui.png",
-      "https://img.icons8.com/color/144/000000/html-5--v1.png",
-      "https://img.icons8.com/color/144/000000/redux.png",
-      "https://img.icons8.com/color/144/000000/chakra-ui.png"
+      "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-data-science-data-analytics-flaticons-lineal-color-flat-icons-5.png",
+      "https://img.icons8.com/external-parzival-1997-outline-color-parzival-1997/64/external-software-developer-digital-asset-and-intangible-product-parzival-1997-outline-color-parzival-1997.png",
+      "https://img.icons8.com/color/144/opencv.png",
+      "https://img.icons8.com/clouds/150/python.png"
     ]
   },
   "about": {
-    "aboutImage": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg",
+    "aboutImage": "https://pg56714-log.vercel.app/avatar.svg",
     "aboutImageCaption": "< I build stuff 🚀/>",
-    "title": "Full Stack Developer",
-    "about": "I am a Full-Stack developer based in Pune, India. I'm an Information Technology undergraduate from SPPU, and my journey in web development began during my first year of college. I'm passionate about creating beautiful, functional, and user-friendly websites and applications, and I'm constantly pushing myself to learn and grow as a developer. Love building full-stack clones and side projects.",
-    "callUrl": "",
-    "resumeUrl": ""
+    "title": "Software Engineer",
+    "about": "I am currently pursuing my master's degree and have acquired two years of internship experience in the information technology sector, specializing in software development. I am committed to continually advancing my skills and expertise in this field.",
+    "resumeUrl": "https://pg56714-log.vercel.app/resume",
+    "callUrl": ""
   },
   "socials": [
     {
       "icon": "FaLinkedin",
-      "link": "https://www.linkedin.com/in/jhon-doe"
+      "link": "https://www.linkedin.com/in/sam-hong-tw"
     },
     {
       "icon": "FaGithub",
-      "link": "https://github.com/jhon-doe"
-    },
-    {
-      "icon": "FaInstagram",
-      "link": "https://www.instagram.com/jhondoe"
-    },
-    {
-      "icon": "FaTwitter",
-      "link": "https://twitter.com/jhondoe"
+      "link": "https://github.com/pg56714"
     }
   ],
   "skills": [
     {
+      "name": "Python",
+      "image": "https://img.icons8.com/color/144/python--v1.png",
+      "category": "Programming"
+    },
+    {
+      "name": "Dart",
+      "image": "https://img.icons8.com/color/144/dart.png",
+      "category": "Programming"
+    },
+    {
+      "name": "HTML",
+      "image": "https://img.icons8.com/color/144/html-5--v1.png",
+      "category": "Programming"
+    },
+    {
+      "name": "CSS",
+      "image": "https://img.icons8.com/color/144/css3.png",
+      "category": "Programming"
+    },
+    {
       "name": "JavaScript",
-      "image": "https://img.icons8.com/color/144/null/javascript--v1.png",
-      "category": "Frontend"
+      "image": "https://img.icons8.com/color/144/javascript--v1.png",
+      "category": "Programming"
+    },
+    {
+      "name": "TypeScript",
+      "image": "https://img.icons8.com/color/144/typescript.png",
+      "category": "Programming"
+    },
+    {
+      "name": "PHP",
+      "image": "https://img.icons8.com/officel/160/php-logo.png",
+      "category": "Programming"
+    },
+    {
+      "name": "Java",
+      "image": "https://img.icons8.com/color/144/java-coffee-cup-logo--v1.png",
+      "category": "Programming"
+    },
+    {
+      "name": "C#",
+      "image": "https://img.icons8.com/nolan/128/c-sharp-logo.png",
+      "category": "Programming"
+    },
+    {
+      "name": "VBScript",
+      "image": "https://img.icons8.com/color/144/scroll.png",
+      "category": "Programming"
+    },
+    {
+      "name": "Flutter",
+      "image": "https://img.icons8.com/color/144/flutter.png",
+      "category": "Frameworks"
+    },
+    {
+      "name": "Laravel",
+      "image": "https://img.icons8.com/fluency/96/laravel.png",
+      "category": "Frameworks"
+    },
+    {
+      "name": "Pytorch",
+      "image": "https://img.icons8.com/fluency/144/pytorch.png",
+      "category": "Frameworks"
+    },
+    {
+      "name": "Next.js",
+      "image": "https://img.icons8.com/color/144/nextjs.png",
+      "category": "Frameworks"
+    },
+    {
+      "name": "React.js",
+      "image": "https://img.icons8.com/color/144/react-native.png",
+      "category": "Frameworks"
+    },
+    {
+      "name": "Vue.js",
+      "image": "https://img.icons8.com/color/144/vue-js.png",
+      "category": "Frameworks"
+    },
+    {
+      "name": "Node.js",
+      "image": "https://img.icons8.com/fluency/144/node-js.png",
+      "category": "Frameworks"
+    },
+    {
+      "name": "Express.js",
+      "image": "https://img.icons8.com/color/144/express-js.png",
+      "category": "Frameworks"
+    },
+    {
+      "name": "ASP.NET MVC",
+      "image": "https://img.icons8.com/material-outlined/96/asp.png",
+      "category": "Frameworks"
+    },
+    {
+      "name": "MongoDB",
+      "image": "https://img.icons8.com/color/96/mongo-db.png",
+      "category": "Database"
+    },
+    {
+      "name": "MySQL",
+      "image": "https://img.icons8.com/color/144/mysql-logo.png",
+      "category": "Database"
+    },
+    {
+      "name": "SQLite",
+      "image": "https://img.icons8.com/ios/100/sqlite.png",
+      "category": "Database"
+    },
+    {
+      "name": "Microsoft SQL Server",
+      "image": "https://img.icons8.com/color/144/microsoft-sql-server.png",
+      "category": "Database"
+    },
+    {
+      "name": "Vite",
+      "image": "https://img.icons8.com/fluency/144/vite.png",
+      "category": "Others"
+    },
+    {
+      "name": "Figma",
+      "image": "https://img.icons8.com/fluency/144/figma.png",
+      "category": "Others"
+    },
+    {
+      "name": "UFT One",
+      "image": "https://img.icons8.com/ios-glyphs/90/recycling.png",
+      "category": "Others"
     },
     {
       "name": "Firebase",
-      "image": "https://img.icons8.com/color/144/null/firebase.png",
-      "category": "Backend"
+      "image": "https://img.icons8.com/color/144/google-firebase-console.png",
+      "category": "Others"
     },
     {
-      "name": "GitHub",
-      "image": "https://img.icons8.com/material-outlined/96/null/github.png",
-      "category": "Tools"
+      "name": "Power BI",
+      "image": "https://img.icons8.com/color/144/power-bi-2021.png",
+      "category": "Others"
+    },
+    {
+      "name": "Microsoft Azure",
+      "image": "https://img.icons8.com/fluency/144/azure-1.png",
+      "category": "Others"
+    },
+    {
+      "name": "Google Cloud Platform",
+      "image": "https://img.icons8.com/fluency/144/google-cloud.png",
+      "category": "Others"
+    },
+    {
+      "name": "Git",
+      "image": "https://img.icons8.com/color/144/git.png",
+      "category": "Others"
+    },
+    {
+      "name": "Github",
+      "image": "https://img.icons8.com/ios-glyphs/120/github.png",
+      "category": "Others"
+    },
+    {
+      "name": "Postman",
+      "image": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/external-postman-is-the-only-complete-api-development-environment-logo-color-tal-revivo.png",
+      "category": "Others"
     }
   ],
   "projects": [
     {
-      "name": "Project Title",
-      "techstack": "HTML5, CSS3, JavaScript, jQuery",
-      "category": "MERN Stack",
+      "name": "Digital Emotional Learning Application for Enhancing Positive Emotions in Children with Emotional Disorders",
+      "techstack": "Conference Paper Presentation",
+      "category": "Others",
       "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210114225740/10-Best-Web-Development-Project-Ideas-For-Beginners-in-2021.png",
       "links": {
         "code": "",
@@ -71,9 +209,20 @@
       }
     },
     {
-      "name": "Project Title",
-      "techstack": "Flutter, Dart, Firebase",
-      "category": "Flutter",
+      "name": "Tech Blog",
+      "techstack": "Next.js",
+      "category": "Github Collaborations",
+      "image": "https://user-images.githubusercontent.com/72514247/209824600-ca9c8acc-6d2d-4041-9931-43e34b8a9a5f.png",
+      "links": {
+        "code": "https://github.com/pg56714/pg56714-log",
+        "video": "",
+        "visit": "https://pg56714-log.vercel.app"
+      }
+    },
+    {
+      "name": "Love School Management System",
+      "techstack": "HTML, CSS, JavaScript, PHP, and MySQL",
+      "category": "Projects",
       "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210114225740/10-Best-Web-Development-Project-Ideas-For-Beginners-in-2021.png",
       "links": {
         "code": "",
@@ -82,53 +231,90 @@
       }
     },
     {
-      "name": "Project Title",
-      "techstack": "PHP, MySQL, HTML5, CSS3, Bootstrap, JavaScript",
-      "category": "LAMP Stack",
+      "name": "Children's Emotion Regulation APP",
+      "techstack": "HTML, CSS, JavaScript, PHP, MySQL, SQLite, Flutter, and Laravel",
+      "category": "Projects",
       "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210114225740/10-Best-Web-Development-Project-Ideas-For-Beginners-in-2021.png",
       "links": {
         "code": "",
-        "video": "",
+        "video": "https://drive.google.com/file/d/13rCCykP-Vu8RvEIpf39fUMFULXHHbf2n/view?usp=sharing",
         "visit": ""
       }
     }
   ],
   "educations": [
     {
-      "institute": "XYZ School | CBSE",
-      "degree": "HSC Science",
-      "duration": "2014 - 2016"
+      "institute": "National Taipei University of Business",
+      "degree": "Bachelor's degree, Department of Information Management",
+      "duration": "2021.09 - 2023.06",
+      "desc": [
+        "Familiar with cross-platform app development and web development, including database design and related technologies."
+      ]
     },
     {
-      "institute": "XYZ College Of Engineering",
-      "degree": "B.Tech CSE",
-      "duration": "2016 - 2020",
+      "institute": "National Taipei University of Business",
+      "degree": "Master's degree, Institute of Artificial Intelligence and Business Application, Department of Information Management",
+      "duration": "2023.06 - Present",
       "desc": [
-        "Pursuing IT Engineering course from ABC University",
-        "Worked on web application development using HTML, CSS, and JavaScript, designing a database system using SQL",
-        "Familiar with software development methodologies and project management practices, including Agile and Waterfall methodologies."
+        "Familiar with computer vision techniques, including image detection, image segmentation, and image inpainting.",
+        "Also have a basic understanding and practical experience with predictive analytics technologies such as machine learning and data mining."
       ]
     }
   ],
   "experiences": [
     {
-      "company": "ABC Tech Solutions",
-      "position": "Web Developer",
-      "duration": "2020 -2022",
+      "company": "SHIN KONG WU HO-SU MEMORIAL HOSPITAL",
+      "position": "Intern, Software Test Engineer, On-Site, Taiwan(新光醫院)",
+      "duration": "2020.03 - 2020.07",
       "desc": [
-        "Assisted with design and development of project.",
-        "Worked on building the product from scratch and built multiple dashboards.",
-        "Skills: HTML · CSS · JavaScript · TailwindCSS · ReactJS · NodeJS · MySQL · REST APIs"
+        "Intern",
+        "This project focused on transitioning from the outdated IBM mainframe to a new generation of open-architecture medical information systems, aimed at enhancing operational efficiency and user experience.",
+        "Performed comprehensive system testing to ensure software integrity and compliance with specifications.",
+        "Conducted system and user case testing collaboratively, identifying and resolving issues to enhance system reliability and user satisfaction.",
+        "Tech Stack: System Testing, Microsoft SQL Server, Microsoft Azure"
       ]
     },
     {
-      "company": "XYZ Tech Solutions",
-      "position": "Web Developer",
-      "duration": "2022 - present",
+      "company": "Micorsoft",
+      "position": "Intern, Software Test Engineer, On-Site, Taiwan(臺灣微軟)",
+      "duration": "2020.07 - 2021.03",
       "desc": [
-        "Assisted with design and development of project.",
-        "Worked on building the product from scratch and built multiple dashboards.",
-        "Skills: HTML · CSS · JavaScript · TailwindCSS · ReactJS · NodeJS · MySQL · REST APIs"
+        "This project involved assisting Shin Kong Wu Ho-Su Memorial Hospital in migrating from an outdated IBM mainframe to a new, open-architecture medical information system. This transition was aimed at boosting operational efficiency and improving the user experience.",
+        "Performed comprehensive system testing to ensure software integrity and compliance with specifications.",
+        "Conducted system and user case testing collaboratively, identifying and resolving issues to enhance system reliability and user satisfaction.",
+        "Leveraged Power BI to integrate and optimize medical report processes, significantly improving data visualization and decision-making efficiency.",
+        "Tech Stack: System Testing, Microsoft SQL Server, Microsoft Azure"
+      ]
+    },
+    {
+      "company": "Micorsoft",
+      "position": "Intern, Software Engineer, On-Site, Taiwan(臺灣微軟)",
+      "duration": "2021.03 - 2021.08",
+      "desc": [
+        "I transitioned from a Software Test Engineer to a Software Engineer, where I was tasked with developing and maintaining web system functionalities.",
+        "Handled the development and ongoing maintenance of web system functions to enhance performance and user satisfaction.",
+        "Tech Stack: ASP.NET MVC, Microsoft SQL Server, Vue.js, Microsoft Azure, C#, TypeScript"
+      ]
+    },
+    {
+      "company": "SYSTEX",
+      "position": "Intern, Test Automation Engineer, On-Site, Taiwan(精誠資訊)",
+      "duration": "2023.02 - 2023.06",
+      "desc": [
+        "I wrote automated scripts for websites and apps, primarily for TDCC and CTBC.",
+        "Transformed manual test scripts into automated tests, increasing efficiency and reducing error rates.",
+        "Tech Stack: VBScript, UFT One"
+      ]
+    },
+    {
+      "company": "Yunxu Technology",
+      "position": "Part-Time, Software Engineer, Remote, Taiwan(鋆旭科技)",
+      "duration": "2023.12 - 2024.06",
+      "desc": [
+        "As a part-time full-stack application developer at Yunxu Technology, I specialized in creating applications compatible with both iOS and Android platforms.",
+        "Developed a comprehensive Human Resources and Financial Management System.",
+        "Engineered an Inventory Management System tailored for enhanced operational efficiency.",
+        "Tech Stack: Flutter, Firebase "
       ]
     }
   ]
