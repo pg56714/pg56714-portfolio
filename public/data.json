@@ -2,7 +2,12 @@
   "main": {
     "name": "Sam Hong",
     "shortDesc": "I specialize in developing user-friendly software applications that meet client requirements, with a keen attention to detail, scalability, and performance.",
-    "titles": ["Software Engineer", "Develop Everything"],
+    "titles": [
+      "Student",
+      "Graduate Student",
+      "Software Engineer",
+      "Develop Everything"
+    ],
     "heroImage": "https://pg56714-log.vercel.app/avatar.svg",
     "techStackImages": [
       "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-data-science-data-analytics-flaticons-lineal-color-flat-icons-5.png",
