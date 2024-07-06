@@ -13,6 +13,7 @@ const nextConfig = {
       "img.freepik.com",
       "media.geeksforgeeks.org",
       "user-images.githubusercontent.com",
+      "pg56714-portfolio.vercel.app",
     ],
   },
 };

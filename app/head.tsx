@@ -28,7 +28,10 @@ export default function Head() {
       <meta name="author" content="Sam Hong" />
       <meta name="language" content="English" />
       <meta name="twitter:card" content="summary" />
-      <meta name="twitter:site" content="https://jigarsable.vercel.app" />
+      <meta
+        name="twitter:site"
+        content="https://pg56714-portfolio.vercel.app"
+      />
       <meta
         name="application-name"
         content="Portfolio | Sam Hong - Software Engineer"
