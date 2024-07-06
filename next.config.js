@@ -14,6 +14,7 @@ const nextConfig = {
       "media.geeksforgeeks.org",
       "user-images.githubusercontent.com",
       "pg56714-portfolio.vercel.app",
+      "github.com",
     ],
   },
 };
