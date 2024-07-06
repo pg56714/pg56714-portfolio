@@ -1,47 +1,49 @@
+import { CONFIG } from "site.config";
+import Script from "next/script";
+
 export default function Head() {
   return (
     <>
+      <title>{CONFIG.head.title}</title>
       <meta content="width=device-width, initial-scale=1" name="viewport" />
-      <meta
-        name="description"
-        content="I'm Sam Hong, software engineer based in Taipei, Taiwan."
-      />
-      <meta
-        name="keywords"
-        content="Sam Hong, portfolio, sam, software engineer, nextjs portfolio, portfolio design, portfolio website, personal portfolio"
-      />
-      <meta property="og:site_name" content="Sam Hong's Portfolio" />
-      <meta
-        property="og:title"
-        content="Portfolio | Sam Hong - Software Engineer"
-      />
-      <meta
-        property="og:description"
-        content="I'm Sam Hong, software engineer based in Taipei, Taiwan."
-      />
-      <meta property="og:url" content="https://pg56714-portfolio.vercel.app" />
-      <meta
-        property="og:image"
-        content="https://pg56714-portfolio.vercel.app/portfolio-fork.png"
-      />
-      <link rel="canonical" href="https://pg56714-portfolio.vercel.app" />
-      <meta name="author" content="Sam Hong" />
-      <meta name="language" content="English" />
+      <meta name="description" content={CONFIG.head.description} />
+      <meta name="keywords" content={CONFIG.head.keywords} />
+      <meta property="og:site_name" content={CONFIG.head.site_name} />
+      <meta property="og:title" content={CONFIG.head.title} />
+      <meta property="og:description" content={CONFIG.head.description} />
+      <meta property="og:url" content={CONFIG.head.url} />
+      <meta property="og:image" content={CONFIG.head.image} />
+      <link rel="canonical" href={CONFIG.head.url} />
+      <meta name="author" content={CONFIG.head.author} />
+      <meta name="language" content={CONFIG.head.lang} />
       <meta name="twitter:card" content="summary" />
-      <meta
-        name="twitter:site"
-        content="https://pg56714-portfolio.vercel.app"
-      />
-      <meta
-        name="application-name"
-        content="Portfolio | Sam Hong - Software Engineer"
-      />
-      <meta
-        name="apple-mobile-web-app-title"
-        content="Portfolio | Sam Hong - Software Engineer"
-      />
+      <meta name="twitter:site" content={CONFIG.head.url} />
+      <meta name="application-name" content={CONFIG.head.title} />
+      <meta name="apple-mobile-web-app-title" content={CONFIG.head.title} />
       <link rel="icon" href="/favicon.ico" />
-      <title>Portfolio | Sam Hong - Software Engineer</title>
+      {CONFIG.googleSearchConsole.enable === true && (
+        <>
+          <meta
+            name="google-site-verification"
+            content={CONFIG.googleSearchConsole.config.siteVerification}
+          />
+        </>
+      )}
+      {CONFIG?.googleAnalytics?.enable === true && (
+        <>
+          <Script
+            src={`https://www.googletagmanager.com/gtag/js?id=${CONFIG.googleAnalytics.config.measurementId}`}
+          />
+          <Script strategy="lazyOnload" id="ga">
+            {`window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${CONFIG.googleAnalytics.config.measurementId}', {
+              page_path: window.location.pathname,
+            });`}
+          </Script>
+        </>
+      )}
     </>
   );
 }
