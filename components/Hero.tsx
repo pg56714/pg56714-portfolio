@@ -53,7 +53,7 @@ const Hero = ({ mainData }: HeroProps) => {
             I&apos;m {name}
           </h1>
           <div className="flex flex-row items-start md:items-center gap-1.5">
-            {/* <h2 className="text-lg md:text-2xl">I am into</h2> */}
+            <h2 className="text-lg md:text-2xl">I</h2>
             <Typewriter
               options={{
                 strings: titles,
