@@ -19,7 +19,8 @@ export default function Header({ logo }: { logo: string }) {
     window.addEventListener("scroll", updateScroll);
   }, []);
 
-  const navs = ["home", "about", "projects", "experience", "contact"];
+  // const navs = ["home", "about", "projects", "experience", "contact"];
+  const navs = ["home", "about", "experience", "projects"];
 
   return (
     <header
@@ -27,15 +28,15 @@ export default function Header({ logo }: { logo: string }) {
         scroll ? "border-b bg-white bg-opacity-40" : "border-b-0"
       } dark:bg-grey-900 dark:bg-opacity-40 border-gray-200 dark:border-b-0 z-30 min-w-full flex flex-col fixed`}
     >
-      <nav className="lg:w-11/12 2xl:w-4/5 w-full md:px-6 2xl:px-0 mx-auto py-4 hidden sm:flex items-center justify-between">
+      <nav className="items-center justify-between hidden w-full py-4 mx-auto lg:w-11/12 2xl:w-4/5 md:px-6 2xl:px-0 sm:flex">
         <Link
           href={"/"}
-          className="2xl:ml-6 flex items-center hover:text-violet-700 hover:dark:text-violet-500 transition-colors duration-300"
+          className="flex items-center transition-colors duration-300 2xl:ml-6 hover:text-violet-700 hover:dark:text-violet-500"
         >
           {logo === "Sam Hong" ? (
             <>
               <FaNodeJs size={28} />
-              <span className="text-lg font-medium ml-2">Sam Hong</span>{" "}
+              <span className="ml-2 text-lg font-medium">Sam Hong</span>{" "}
             </>
           ) : (
             <span className="text-lg font-medium">{logo.split(" ")[0]}</span>
@@ -46,7 +47,7 @@ export default function Header({ logo }: { logo: string }) {
           {navs.map((e, i) => (
             <li key={i}>
               <ScrollLink
-                className="hover:text-violet-700 hover:dark:text-violet-500 transition-colors capitalize cursor-pointer"
+                className="capitalize transition-colors cursor-pointer hover:text-violet-700 hover:dark:text-violet-500"
                 to={e}
                 offset={-60}
                 smooth={true}
@@ -66,7 +67,7 @@ export default function Header({ logo }: { logo: string }) {
         </ul>
       </nav>
 
-      <nav className="p-4 flex sm:hidden items-center justify-between">
+      <nav className="flex items-center justify-between p-4 sm:hidden">
         {logo === "Sam Hong" ? (
           <FaNodeJs size={28} />
         ) : (
@@ -83,14 +84,14 @@ export default function Header({ logo }: { logo: string }) {
         </div>
       </nav>
 
-      <div
+      {/* <div
         className={`flex min-h-screen w-screen absolute md:hidden top-0 ${
           !navCollapse ? "right-0" : "right-[-100%]"
         } bottom-0 z-50 ease-in duration-300`}
       >
         <div className="w-1/4" onClick={() => setNavCollapse(true)}></div>
 
-        <div className="flex flex-col p-4 gap-5 bg-gray-100/95 backdrop-filter backdrop-blur-sm dark:bg-grey-900/95 w-3/4">
+        <div className="flex flex-col w-3/4 gap-5 p-4 bg-gray-100/95 backdrop-filter backdrop-blur-sm dark:bg-grey-900/95">
           <CgClose
             className="self-end my-2"
             size={20}
@@ -122,7 +123,7 @@ export default function Header({ logo }: { logo: string }) {
             Contact
           </ScrollLink>
         </div>
-      </div>
+      </div> */}
     </header>
   );
 }
