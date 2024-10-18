@@ -237,6 +237,17 @@
       }
     },
     {
+      "name": "LidemyOJ_Python3",
+      "techstack": "Python",
+      "category": "Others",
+      "image": "https://pg56714-portfolio.vercel.app/LidemyOJ.jpg",
+      "links": {
+        "code": "https://github.com/pg56714/LidemyOJ_Python3",
+        "video": "",
+        "visit": ""
+      }
+    },
+    {
       "name": "Tech Blog",
       "techstack": "Next.js",
       "category": "Github Collaborations",
@@ -256,6 +267,17 @@
         "code": "https://github.com/pg56714/pg56714-portfolio",
         "video": "",
         "visit": "https://pg56714-portfolio.vercel.app"
+      }
+    },
+    {
+      "name": "efficientvit",
+      "techstack": "Python",
+      "category": "Github Collaborations",
+      "image": "https://pg56714-portfolio.vercel.app/efficientvit.png",
+      "links": {
+        "code": "https://github.com/pg56714/efficientvit",
+        "video": "",
+        "visit": ""
       }
     },
     {
@@ -311,6 +333,28 @@
         "code": "https://github.com/pg56714/Segment-Anything-Arena",
         "video": "",
         "visit": "https://huggingface.co/spaces/pg56714/Segment-Anything-Arena"
+      }
+    },
+    {
+      "name": "Inpaint-Anything-Gradio",
+      "techstack": "Python",
+      "category": "Projects",
+      "image": "https://pg56714-portfolio.vercel.app/inpaintAnything.png",
+      "links": {
+        "code": "https://github.com/pg56714/Inpaint-Anything-Gradio",
+        "video": "",
+        "visit": "https://huggingface.co/spaces/pg56714/Inpaint-Anything"
+      }
+    },
+    {
+      "name": "Awesome-Vision-Metrics",
+      "techstack": "Python",
+      "category": "Projects",
+      "image": "https://pg56714-portfolio.vercel.app/VisionMetrics.jpg",
+      "links": {
+        "code": "https://github.com/pg56714/Awesome-Vision-Metrics",
+        "video": "",
+        "visit": ""
       }
     },
     {
