@@ -19,7 +19,7 @@ export default function Head() {
       <meta name="twitter:site" content={CONFIG.head.url} />
       <meta name="application-name" content={CONFIG.head.title} />
       <meta name="apple-mobile-web-app-title" content={CONFIG.head.title} />
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="/avatar.svg" />
       {CONFIG.googleSearchConsole.enable === true && (
         <>
           <meta
